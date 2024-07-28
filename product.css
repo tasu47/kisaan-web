@@ -1,0 +1,261 @@
+.main {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    box-shadow: 1px 1px 20px 5px #c3baba;
+    padding-left: 20px;
+    margin: auto;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .icon img {
+    width: 410px;
+    height: 460px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.main .header .masala h1 {
+    color: #672900;
+}
+
+.main .header .stock p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #70A42F;
+    width: 110px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+
+}
+
+.main .header .highlight {
+    color: #672900;
+}
+
+.main .header .highlight p {
+    font-size: 13px;
+    width: 400px;
+}
+
+.main .header .off {
+    display: flex;
+
+
+}
+
+.main .header .off .prize .dolor {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-right: 190px;
+}
+
+.main .header .off .prize .dolor h1 {
+    color: #672900;
+}
+
+.main .header .off .prize .dolor p {
+    color: black;
+    font-weight: bold;
+}
+
+.main .header .off .prize .dolor span {
+    color: #70A42F;
+    font-weight: bold;
+}
+
+.main .header .off .prize .check {
+    background-color: #672900;
+    width: 110px;
+    width: 130px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+    color: white;
+}
+
+.main .header .off .prize .date {
+    color: #672900;
+}
+
+.main .header .off .prize .date .Date {
+    display: flex;
+    margin: 0;
+    gap: 10px;
+}
+
+.main .header .off .prize .date .Date .month {
+    width: 110px;
+    border: 1px solid #DB8A68;
+    border-radius: 8px;
+    background-color: #FFEFDC;
+    align-items: center;
+    text-align: center;
+}
+
+.main .header .off .prize .date .Date .month h2 {
+    font-size: 17px;
+}
+
+.main .header .off .prize .date .Date .month span {
+    font-size: 12px;
+    padding-top: -30px;
+}
+
+.main .header .off .secure .input {
+    display: flex;
+    align-items: center;
+    color: #70A42F;
+}
+
+.main .header .off .secure .input h2 {
+    font-size: 17px;
+}
+
+.main .header .off .secure .one {
+    background-color: #FFEFDC;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main .header .off .secure .one ul li {
+    font-size: 13px;
+
+}
+
+
+.main .header .off .secure .one .one1 {
+    display: flex;
+}
+
+.main .header .off .secure .one .one1 h3 {
+    font-size: 13px;
+    color: #672900;
+}
+
+.main .header .select h3 {
+    font-size: 13px;
+    color: #672900;
+
+}
+
+.main .header .select .opt {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    color: #672900;
+
+}
+
+.main .header .select .opt .minus {
+    font-size: 19px;
+}
+
+.main .header .select select {
+    width: 70px;
+    color: #672900;
+
+}
+
+.but {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 50px;
+}
+
+button {
+    background-color: #70A42F;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.but .but1 button {
+    color: #672900;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        display: block;
+    }
+
+    .main .icon img {
+        width: 310px;
+        height: 360px;
+    }
+
+    .main .header .highlight p {
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .main .header .off .prize .date .Date .month {
+        width: 80px;
+
+    }
+
+    .main .header .off .prize .date .Date .month h2 {
+        font-size: 13px;
+    }
+
+    .main .header .off .prize .date .Date .month span {
+        font-size: 7px;
+        padding-top: -30px;
+    }
+
+    .main .header .off {
+        display: block;
+    }
+
+    .main .header .off .secure .one {
+        background-color: #FFEFDC;
+        width: 290px;
+        align-items: center;
+        text-align: center;
+
+
+    }
+
+    .but {
+
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    button {
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .but .but1 button {
+        margin-top: 10px;
+        padding: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+}
